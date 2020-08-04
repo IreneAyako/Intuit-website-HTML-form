@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(231, 231, 231);
+    box-sizing: border-box;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header p {
+    margin-top: 1.2%;
+    float: right;
+    font-size: 12px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header button {
+    float:right;
+    padding: 8px;
+    background: rgb(64, 64, 207);
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    width:90px;
+    height: 34px;
+}
+
+.container{
+    align-items: center;
+}
+
+.logo img {
+    height: 500px;
+    width: 650px;
+    margin-top: -10%; 
+    margin-left: 25%;
+}
+
+.content > div{
+    display: grid;
+    border: 1px solid rgb(201, 199, 199);
+    height: 600px;
+    width: 400;
+    margin-left: 35%;
+    margin-top: -15%; 
+    background-color: white;
+}
+
+.content > div h2{
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.content > div p{
+    margin-top: -10%;
+    text-align: center;
+    color:  rgb(73, 73, 73);
+    font-size: 16px;
+}
+
+.content > div p a{
+    text-decoration: none;
+}
+
+.form{
+    margin-top: -5%;
+    color: rgb(73, 73, 73);
+    font-size: 16px;
+    margin-left: 3%;
+}
+
+.form input {
+    width: 370px;
+    height: 35px;
+}
+
+.form button{
+    padding: 8px;
+    background: rgb(64, 64, 207);
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    width:350px;
+    height: 40px;
+    margin-left: 3%;
+    margin-top: 25%;
+}
+
+.last{
+    background-color: rgb(196, 193, 193);
+}
+
+.last p{
+    margin-top: 50%;
+}
+
+.footer, .a{
+    font-size: 12px;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.footer button{
+    padding: 8px;
+    background: rgb(94, 94, 95);
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    width:150px;
+    height: 40px;
+    margin-left: 3%;
+    float: right;
+    margin-top: -2%;
+}
